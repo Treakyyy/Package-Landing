@@ -1,0 +1,35 @@
+.Container-Button-Basket-And-Lang{
+    display: flex;
+    gap: 18px;
+}
+.Container-Basket-And-Lang{
+    display: flex;
+    gap: 50px;
+}
+.En{
+    height: 65px;
+    width: 65px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    border-top: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header-Button-Contant{
+    display: flex;
+    padding-top: 101px;
+    border: none;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}

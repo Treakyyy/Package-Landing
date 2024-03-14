@@ -1,0 +1,77 @@
+.White-Coloms{
+    background-color: white;
+    width: 360.07px;
+    height: 110px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 44.52px;
+}
+.Text-White-Coloms{
+    color: black;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.White-Rectangle1{
+    width: 100px;
+    height: 31.5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 191%;
+    right: 3%;
+    border-bottom: none;
+}
+.White-Rectangle2{
+    width: 100px;
+    height: 31.5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 206.9%;
+    right: 3%;
+    border-bottom: none;
+}
+.White-Rectangle3{
+    width: 100px;
+    height: 31.5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 222.7%;
+    right: 3%;
+    border-bottom: none;
+}
+.White-Rectangle4{
+    width: 100px;
+    height: 31.5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 238.6%;
+    right: 3%;
+    border-bottom: none;
+}
+.White-Rectangle5{
+    width: 100px;
+    height: 31.5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 254.3%;
+    right: 3%;
+    border-bottom: none;
+}
+.Container-WhiteColumn{
+    margin-top: 179.43px;
+}

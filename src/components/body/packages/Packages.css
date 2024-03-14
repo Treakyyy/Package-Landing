@@ -1,0 +1,103 @@
+.p{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.Green-Line{
+    background-color: rgba(129, 180, 46, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+.Yellow-Line{
+    background: rgba(255, 202, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+.Orange-Line{
+    background: rgba(255, 143, 40, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+.Red-Line{
+    background: rgba(255, 78, 104, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+.Text-Packages{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+}
+.Green-Rectangle{
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    border-top: 0;
+    background-color: rgba(129, 180, 46, 1);
+    position: absolute;
+    right: 30%;
+    bottom: -28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Yellow-Rectangle{
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    border-top: 0;
+    background-color: rgba(255, 202, 0, 1);
+    position: absolute;
+    right: 40%;
+    bottom: -45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Orange-Rectangle{
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    border-top: 0;
+    background-color: rgba(255, 143, 40, 1);
+    position: absolute;
+    right: 50%;
+    bottom: -62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Red-Rectangle{
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    border-top: 0;
+    background-color: rgba(255, 78, 104, 1);
+    position: absolute;
+    right: 60%;
+    bottom: -79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container-Packages{
+    display: flex;
+    flex-direction: column;
+}

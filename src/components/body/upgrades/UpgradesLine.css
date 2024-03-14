@@ -1,0 +1,137 @@
+.Upgrades-Green{
+    width: 555.61px;
+    height: 106.96px;
+    background: linear-gradient(90deg, #81B42E 17.65%, #FFCA00 96.94%);
+    display: flex;
+    align-items: center;
+    padding-left: 161px;
+}
+.Upgrades-Yellow{
+    width: 669.61px;
+    height: 106.96px;
+    background: linear-gradient(90deg, #FFCA00 14.96%, #FF8F28 96.84%);
+    display: flex;
+    align-items: center;
+    padding-left: 161px;
+}
+.Upgrades-Orange{
+    width: 786.61px;
+    height: 106.96px;
+    background: linear-gradient(90deg, #FF8F28 12.91%, #FF4E68 96.76%);
+    display: flex;
+    align-items: center;
+    padding-left: 161px;
+}
+.Upgrades-Red{
+    width: 912.61px;
+    height: 106.96px;
+    background: linear-gradient(90deg, #FF4E68 11.95%, #8C35E3 96.73%);
+    display: flex;
+    align-items: center;
+    padding-left: 161px;
+}
+.Text-Line-Upgrades{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+}
+.Uprgrades-Button-Basket-Plus-Green{
+    border: 2px solid rgba(255, 202, 0, 1);
+    border-radius: 0px 10px 10px 0px;
+    height: 106.96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.Uprgrades-Button-Basket-Plus-Yellow{
+    border: 2px solid rgba(255, 143, 40, 1);
+    border-radius: 0px 10px 10px 0px;
+    height: 106.96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.Uprgrades-Button-Basket-Plus-Orange{
+    border: 2px solid rgba(255, 78, 104, 1);
+    border-radius: 0px 10px 10px 0px;
+    height: 106.96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.Uprgrades-Button-Basket-Plus-Red{
+    border: 2px solid rgba(140, 53, 227, 1);
+    border-radius: 0px 10px 10px 0px;
+    height: 106.96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.Container-Green-Line, 
+.Container-Yellow-Line, 
+.Container-Orange-Line, 
+.Container-Red-Line{
+    display: flex;
+    align-items: center;
+}
+.Price-Green{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 202, 0, 1);
+    margin: 0;
+    margin-left: 45px;
+}
+.Price-Yellow{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 144, 41, 1);
+    margin: 0;
+    margin-left: 45px;
+}
+.Price-Orange{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 79, 105, 1);
+    margin: 0;
+    margin-left: 45px;
+}
+.Price-Red{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(141, 54, 227, 1);
+    margin: 0;
+    margin-left: 45px;
+}
+.Container-Upgrades-Line{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

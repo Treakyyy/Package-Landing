@@ -1,0 +1,29 @@
+.Title-Package{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 161px;
+}
+.Title-Text-Package{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 161px;
+}
+.Container-Choose-Package{
+    display: flex;
+    gap: 25px;
+}
+.GirlPhoto{
+    position: absolute;
+    top: 520%;
+    left: 12%;
+}

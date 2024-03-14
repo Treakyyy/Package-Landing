@@ -1,0 +1,6 @@
+.Header-Container{
+    background-color:  rgba(140, 53, 227, 1);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 75vh;
+}
