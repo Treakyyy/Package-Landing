@@ -1,0 +1,21 @@
+.Container-Payment-System{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.Union{
+    width: 46px;
+    height: 26px;
+}
+.MasterCard{
+    width: 43px;
+    height: 34px;
+}
+.Visa{
+    width: 63px;
+    height: 31px;
+}
+.Paypal{
+    width: 78px;
+    height: 39px;
+}

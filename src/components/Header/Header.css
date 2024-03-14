@@ -4,3 +4,29 @@
     grid-template-columns: 2fr 1fr;
     height: 75vh;
 }
+@media only screen and (max-width: 1023px) {
+    .Header-Container {
+        grid-template-columns: 1fr; 
+    }.Header-Container {
+        height: 85vh; 
+        background-size: cover; 
+        background-position: center; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Header-Container {
+        grid-template-columns: 1fr; 
+        height: auto; 
+        background-size: cover; 
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .Header-Container {
+        grid-template-columns: 1fr; 
+        height: auto; 
+        background-size: cover; 
+        background-position: center; 
+    }
+}

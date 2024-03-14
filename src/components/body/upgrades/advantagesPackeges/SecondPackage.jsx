@@ -20,7 +20,8 @@ const SecondPackage = () => {
                     <p className='Price-Package'>$37.5K</p>
                     <button className='Footer-Button-Packages'><YellowBusket/><YellowPlus/></button>
                 </div>
-            <div className='White-Mini-Tab1-1st-Package'></div>
+                <div className='Green-Mini-Tab1-2nd-Package'></div>
+                <div className='White-Mini-Tab2-2nd-Package'></div>
         </div>
     );
 };

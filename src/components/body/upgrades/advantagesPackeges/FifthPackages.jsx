@@ -34,7 +34,15 @@ const FifthPackages = () => {
             <p className='Price-Package'>$300K</p>
             <button className='Footer-Button-Packages'><PurpleBusket/><PurplePlus/></button>
         </div>
-        <div className='White-Mini-Tab1-1st-Package'></div>
+        <div className='Green-Mini-Tab1-5th-Package'></div>
+        <div className='Yellow-Mini-Tab2-5th-Package'></div>
+        <div className='Orange-Mini-Tab3-5th-Package'></div>
+        <div className='Red-Mini-Tab4-5th-Package'></div>
+        <div className='White-Mini-Tab5-5th-Package'></div>
+        <div className='White-Mini-Tab6-5th-Package'></div>
+        <div className='White-Mini-Tab7-5th-Package'></div>
+        <div className='White-Mini-Tab8-5th-Package'></div>
+        <div className='White-Mini-Tab9-5th-Package'></div>
     </div>
     );
 };

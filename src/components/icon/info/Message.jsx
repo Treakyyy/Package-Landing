@@ -1,8 +1,9 @@
 import React from 'react';
+import IconMessage from '../../../img/IconMessage.png';
 
 const Message = () => {
     return (
-        <img src="" alt="" />
+        <img className='Message' src={IconMessage} alt="" />
     );
 };
 

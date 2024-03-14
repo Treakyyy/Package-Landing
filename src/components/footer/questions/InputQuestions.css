@@ -1,0 +1,45 @@
+.Container-Input-Questions{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 31px;
+}
+.Input-Questions{
+    width: 568px;
+    height: 64px;
+    border-radius: 20px; 
+    padding-left: 25px;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: rgba(140, 53, 227, 1);
+}
+@media only screen and (max-width: 1023px) {
+    .Container-Input-Questions {
+        padding-top: 20px; /* Уменьшаем отступ сверху */
+    }
+    .Input-Questions {
+        width: 100%; /* Ширина занимает всю доступную ширину */
+    }
+}
+
+/* Медиа-запрос для ширины экрана до 767px */
+@media only screen and (max-width: 767px) {
+    .Container-Input-Questions {
+        gap: 16px; /* Уменьшаем расстояние между элементами */
+    }
+    .Input-Questions {
+        height: 56px; /* Уменьшаем высоту */
+    }
+}
+
+/* Медиа-запрос для ширины экрана до 425px */
+@media only screen and (max-width: 425px) {
+    .Container-Input-Questions {
+        gap: 12px; /* Уменьшаем расстояние между элементами */
+        padding-top: 15px; /* Уменьшаем отступ сверху */
+    }
+    .Input-Questions {
+        height: 48px; /* Уменьшаем высоту */
+    }
+}

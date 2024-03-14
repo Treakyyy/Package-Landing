@@ -1,0 +1,62 @@
+.Container-Questions{
+    padding-top: 196px;
+    display: flex;
+    flex-direction: column;
+}
+.Title-Questions{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+.Container-GirlFooter{
+    position: absolute;
+    top: 613%;
+    right: 9%;
+}
+.Text-Agree{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.Text-Agree-Underline{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+}
+.Container-Text-Agree{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding-left: 30px;
+}
+.Send-Button{
+    width: 206.46px;
+    height: 64px;
+    border: 2px solid black;   
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 20px;
+    margin-top: 38px;
+}
+.Container-Other{
+    position: relative;
+    top: 20.2%;
+}

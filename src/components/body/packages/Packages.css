@@ -1,4 +1,4 @@
-.p{
+.Title-White-Line-Packages{
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
@@ -7,6 +7,7 @@
     text-align: center;
     position: relative;
     display: flex;
+    padding-left: 176px;
 }
 .Green-Line{
     background-color: rgba(129, 180, 46, 1);
@@ -44,6 +45,8 @@
     letter-spacing: 0.05em;
     text-align: left;
     color: white;
+    padding-left: 176px;
+    padding-right: 169px;
 }
 .Green-Rectangle{
     width: 150px;
@@ -101,3 +104,44 @@
     display: flex;
     flex-direction: column;
 }
+.Main-White-Rectangle{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    top: 61.1%;
+    right: 30%;
+    border-bottom: none;
+}
+@media only screen and (max-width: 425px) {
+    .Container-Packages{
+        display: flex;
+        flex-direction: column;
+        max-width: 425px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .Container-Packages{
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+    }
+    .Green-Line{
+        background-color: rgba(129, 180, 46, 1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 122px;
+        max-width: 768px;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Container-Packages{
+        display: flex;
+        flex-direction: column;
+        max-width: 1024px;
+    }
+  }
+ 

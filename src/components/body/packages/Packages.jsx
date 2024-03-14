@@ -6,7 +6,7 @@ import PurpleTab from './PurpleTab';
 const Packages = () => {
     return (
         <div className='Container-Packages'>
-            <p className='p'>Packages</p>
+            <p className='Title-White-Line-Packages'>Packages</p>
             <div className='Green-Line'>
                 <p className='Text-Packages'>StartX</p>
                 <p className='Text-Packages'>$37.5k</p>
@@ -28,6 +28,7 @@ const Packages = () => {
                 <div className='Red-Rectangle'><Arrow/></div>
             </div>
             <PurpleTab/>
+            <div className='Main-White-Rectangle'></div>
         </div>
     );
 };

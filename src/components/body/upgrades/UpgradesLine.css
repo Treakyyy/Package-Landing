@@ -45,9 +45,11 @@
     height: 106.96px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     cursor: pointer;
     background-color: white;
+    width: 121px;
 }
 .Uprgrades-Button-Basket-Plus-Yellow{
     border: 2px solid rgba(255, 143, 40, 1);
@@ -55,9 +57,11 @@
     height: 106.96px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     cursor: pointer;
     background-color: white;
+    width: 121px;
 }
 .Uprgrades-Button-Basket-Plus-Orange{
     border: 2px solid rgba(255, 78, 104, 1);
@@ -65,9 +69,11 @@
     height: 106.96px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     cursor: pointer;
     background-color: white;
+    width: 121px;
 }
 .Uprgrades-Button-Basket-Plus-Red{
     border: 2px solid rgba(140, 53, 227, 1);
@@ -75,9 +81,11 @@
     height: 106.96px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     cursor: pointer;
     background-color: white;
+    width: 121px;
 }
 .Container-Green-Line, 
 .Container-Yellow-Line, 

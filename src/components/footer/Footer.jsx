@@ -1,11 +1,13 @@
 import React from 'react';
 import './Footer.css'
-import Informations from './Informations';
+import Questions from './questions/Questions';
+import Informations from './contacts/Informations';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='Footer-Container'>
             <Informations/>
+            <Questions/>
         </div>
     );
 };

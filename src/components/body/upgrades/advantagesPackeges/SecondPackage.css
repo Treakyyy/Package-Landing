@@ -34,17 +34,6 @@
     border-radius: 0px 0px 8px 8px;
     height: 70px;
 }
-.White-Mini-Tab1-1st-Package{
-    width: 100px;
-    height: 31.5px;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 20px 20px 0px 0px;
-    position: absolute;
-    top: 2380.6%;
-    right: 3%;
-    border-bottom: none;
-}
 .Price-Package{
     font-family: Poppins;
     font-size: 36px;
@@ -67,4 +56,26 @@
 .Green-Tab-Second-Package{
     height: 100px;
     background-color: rgba(129, 180, 46, 1);
+}
+.Green-Mini-Tab1-2nd-Package{
+    width: 60px;
+    height: 25px;
+    background-color: rgba(129, 180, 46, 1);
+    border: 1px solid rgba(129, 180, 46, 1);
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -31%;
+    left: 5%;
+    border-bottom: none;
+}
+.White-Mini-Tab2-2nd-Package{
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -21.9%;
+    left: 55%;
+    border-bottom: none;
 }

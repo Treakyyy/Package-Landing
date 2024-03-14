@@ -35,6 +35,7 @@
 }
 .Text-White-Tab{
     padding-left: 21px;
+    font-size: 15px;
 }
 .Footer-Container-First-Package{
     background-color: rgba(129, 180, 46, 1);
@@ -46,14 +47,25 @@
     height: 70px;
 }
 .White-Mini-Tab1-1st-Package{
-    width: 100px;
-    height: 31.5px;
+    width: 60px;
+    height: 25px;
     background-color: white;
-    border: 2px solid black;
-    border-radius: 20px 20px 0px 0px;
-    position: absolute;
-    top: 2380.6%;
-    right: 3%;
+    border: 1px solid black;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -25.2%;
+    left: 5%;
+    border-bottom: none;
+}
+.White-Mini-Tab2-1st-Package{
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -22%;
+    left: 73.3%;
     border-bottom: none;
 }
 .Price-Package{

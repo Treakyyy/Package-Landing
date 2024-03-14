@@ -17,3 +17,33 @@
     align-items: start;
     margin-top: 101px;
 }
+@media only screen and (max-width: 425px) {
+    .Container-Header-Button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .Container-Header-Button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Container-Header-Button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+    }
+  }

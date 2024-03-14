@@ -1,8 +1,9 @@
 import React from 'react';
+import IconPlace from '../../../img/IconPlace.png'
 
 const Place = () => {
     return (
-        <img src="" alt="" />
+        <img src={IconPlace} alt="" />
     );
 };
 
