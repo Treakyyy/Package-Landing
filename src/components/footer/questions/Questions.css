@@ -13,9 +13,10 @@
     margin: 0;
 }
 .Container-GirlFooter{
-    position: absolute;
-    top: 613%;
-    right: 9%;
+    position: relative;
+    bottom: 71.5%;
+    left: 0%;
+    margin: 0;
 }
 .Text-Agree{
     font-family: Poppins;
@@ -58,5 +59,4 @@
 }
 .Container-Other{
     position: relative;
-    top: 20.2%;
 }

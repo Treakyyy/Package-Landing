@@ -8,6 +8,7 @@ const Header = () => {
         <div className='Header-Container'>
             <HeaderMenu/>
             <BasketAndLang/>
+            <div className='Main-White-Rectangle'></div>
         </div>
     );
 };

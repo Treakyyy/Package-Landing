@@ -18,8 +18,8 @@ const ChoosePackage = () => {
                 <ThirdPackages/>
                 <FourthPackages/>
                 <FifthPackages/>
-                <div className='GirlPhoto'><GirlPackage/></div>
             </div>
+                <div className='GirlPhoto'><GirlPackage/></div>
         </div>
     );
 };

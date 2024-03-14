@@ -28,7 +28,6 @@ const Packages = () => {
                 <div className='Red-Rectangle'><Arrow/></div>
             </div>
             <PurpleTab/>
-            <div className='Main-White-Rectangle'></div>
         </div>
     );
 };
