@@ -9,7 +9,7 @@ import PurpleBusket from '../../icon/Basket/PurpleBusket'
 const PurpleTab = () => {
     return (
         <div className='Container-PurpleTab'>
-            <div>
+            <div className='Container-Ultra-Description'>
                 <h1 className='Header-Title-PurpleTab'>ULTRA</h1>
                 <p className='Header-Text-PurpleTab'>The most complete package <br /> of functions with maximum <br /> opportunities for the complete <br /> management of your business from <br /> anywhere in the world at any time!</p>
                 <div className='Container-PurpleTab-Button'>

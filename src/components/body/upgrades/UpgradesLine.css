@@ -143,3 +143,117 @@
     flex-direction: column;
     gap: 15px;
 }
+@media only screen and (max-width: 425px) {
+    .Upgrades-Green{
+        width: auto;
+        padding-left: 15px;
+    }
+    .Text-Line-Upgrades{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .Upgrades-Green{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Yellow{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Orange{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Red{
+        width: 300px;
+        padding-left: 30px;
+    }
+    .Price-Red{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .Price-Yellow{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .Price-Orange{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .Price-Green{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Upgrades-Green{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Yellow{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Orange{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Upgrades-Red{
+        width: auto;
+        padding-left: 30px;
+    }
+    .Text-Line-Upgrades{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .Price-Red{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .Price-Yellow{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .Price-Orange{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .Price-Green{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Upgrades-Green{
+        width: auto;
+    }
+    .Upgrades-Yellow{
+        width: auto;
+    }
+    .Upgrades-Orange{
+        width: auto;
+    }
+    .Upgrades-Red{
+        width: auto;
+    }
+    .Price-Red{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .Price-Yellow{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .Price-Orange{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .Price-Green{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .Text-Line-Upgrades{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

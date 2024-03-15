@@ -60,3 +60,34 @@
 .Container-Other{
     position: relative;
 }
+@media only screen and (max-width: 1023px) {
+    .Title-Questions{
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Title-Questions{
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .Title-Questions{
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 130px;
+    }
+    .Send-Button{
+        margin-left: 130px;
+    }
+    .Container-Text-Agree{
+        padding-left: 133px;
+    }
+    .Container-Questions{
+        display: flex;
+        flex-direction: column;
+    }
+}

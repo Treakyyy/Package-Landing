@@ -73,3 +73,41 @@
 .Container-WhiteColumn{
     margin-top: 179.43px;
 }
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .Text-White-Coloms{
+        font-size: 20px;
+    }
+    .White-Rectangle1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .White-Coloms{
+        width: 200px;
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .White-Coloms{
+        height: auto;
+    }
+    .Text-White-Coloms{
+        font-size: 17px;
+    }
+    .White-Rectangle1{
+        display: none;
+    }
+    .White-Rectangle2{
+        display: none;
+    }
+    .White-Rectangle3{
+        display: none;
+    }
+    .White-Rectangle4{
+        display: none;
+    }
+    .White-Rectangle5{
+        display: none;
+    }
+}

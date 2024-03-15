@@ -19,8 +19,10 @@ const FirstPackages = () => {
             <p className='Price-Package'>$37.5K</p>
             <button className='Footer-Button-First-Packages'><GreenBusket/><GreenPlus/></button>
         </div>
-        <div className='White-Mini-Tab1-1st-Package'></div>
-        <div className='White-Mini-Tab2-1st-Package'></div>
+        <div className='Conteiner-Mini-Tab'>
+            <div className='White-Mini-Tab1-1st-Package'></div>
+            <div className='White-Mini-Tab2-1st-Package'></div>
+        </div>
     </div>
     );
 };

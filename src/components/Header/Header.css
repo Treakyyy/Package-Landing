@@ -23,6 +23,9 @@
         background-size: cover; 
         background-position: center; 
     }
+    .Main-White-Rectangle{
+        opacity: 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -32,6 +35,9 @@
         background-size: cover; 
         background-position: center;
     }
+    .Main-White-Rectangle{
+        opacity: 0;
+    }
 }
 @media only screen and (max-width: 425px) {
     .Header-Container {
@@ -39,5 +45,8 @@
         height: auto; 
         background-size: cover; 
         background-position: center; 
+    }
+    .Main-White-Rectangle{
+        opacity: 0;
     }
 }

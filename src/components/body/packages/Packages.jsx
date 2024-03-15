@@ -10,8 +10,8 @@ const Packages = () => {
             <div className='Green-Line'>
                 <p className='Text-Packages'>StartX</p>
                 <p className='Text-Packages'>$37.5k</p>
-                <div className='Green-Rectangle'><Arrow/></div>
             </div>
+                <div className='Green-Rectangle'><Arrow/></div>
             <div className='Yellow-Line'>
                 <p className='Text-Packages'>Lite</p>
                 <p className='Text-Packages'>$75k</p>

@@ -1,3 +1,18 @@
 .Arrow-Yellow{
     padding: 0px 55px 0px 105px;
 }
+@media only screen and (max-width: 425px) {
+    .Arrow-Yellow{
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Arrow-Yellow{
+        width: 50px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Arrow-Yellow{
+        width: 90px;
+    }
+}

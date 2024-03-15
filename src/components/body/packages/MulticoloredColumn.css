@@ -77,7 +77,6 @@
     font-family: Poppins;
     font-size: 26px;
     font-weight: 700;
-    line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
@@ -85,4 +84,68 @@
 .Container-MulticoloredColumn{
     margin-top: 179.43px;
     margin-bottom: 149px;
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .Green-Rectangle-Columns{
+        width: 300px;
+    }
+    .Yellow-Rectangle-Columns{
+        width: 300px;
+    }
+    .Orange-Rectangle-Columns{
+        width: 300px;
+    }
+    .Red-Rectangle-Columns{
+        width: 300px;
+    }
+    .Text-Rectangle-Coloms{
+        font-size: 20px;
+    }
+    .Green-Rectangle-Columns{
+        height: auto;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .Green-Rectangle-Columns{
+        width: 200px;
+        height: auto;
+    }
+    .Yellow-Rectangle-Columns{
+        width: 200px;
+        height: auto;
+    }
+    .Orange-Rectangle-Columns{
+        width: 200px;
+        height: auto;
+    }
+    .Red-Rectangle-Columns{
+        width: 200px;
+        height: auto;
+    }
+    .Text-Rectangle-Columns{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Text-Rectangle-Coloms{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .Container-MulticoloredColumn{
+        margin-bottom: 10px;
+    }
+    .Mini-Green-Rectangle-Columns{
+        display: none;
+    }
+    .Mini-Yellow-Rectangle-Columns{
+        display: none;
+    }
+    .Mini-Orange-Rectangle-Columns{
+        display: none;
+    }
+    .Mini-Red-Rectangle-Columns{
+        display: none;
+    }
 }

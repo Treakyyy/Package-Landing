@@ -41,11 +41,11 @@
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
-    /* line-height: 96px; */
     letter-spacing: 0.05em;
     text-align: left;
     color: white;
     padding-left: 176px;
+    padding-right: 161px;
 }
 .Green-Rectangle{
     width: 150px;
@@ -53,9 +53,9 @@
     border-radius: 30px;
     border-top: 0;
     background-color: rgba(129, 180, 46, 1);
-    position: relative;
-    right: 30%;
-    bottom: -60%;
+    position: absolute;
+    right: 31%;
+    bottom: -29%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,9 +66,9 @@
     border-radius: 30px;
     border-top: 0;
     background-color: rgba(255, 202, 0, 1);
-    position: relative;
-    right: 40%;
-    bottom: -60%;
+    position: absolute;
+    right: 37%;
+    bottom: -46%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,9 +79,9 @@
     border-radius: 30px;
     border-top: 0;
     background-color: rgba(255, 143, 40, 1);
-    position: relative;
-    right: 50%;
-    bottom: -62%;
+    position: absolute;
+    right: 43%;
+    bottom: -63%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,9 +92,9 @@
     border-radius: 30px;
     border-top: 0;
     background-color: rgba(255, 78, 104, 1);
-    position: relative;
-    right: 60%;
-    bottom: -62%;
+    position: absolute;
+    right: 49%;
+    bottom: -80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +109,16 @@
         flex-direction: column;
         max-width: 425px;
     }
+    .Yellow-Rectangle, 
+    .Green-Rectangle,
+    .Orange-Rectangle,
+    .Red-Rectangle{
+        opacity: 0;
+    }
+    .Green-Line{
+        display: flex;
+        justify-content: start;
+    }
   }
 @media only screen and (max-width: 768px) {
     .Container-Packages{
@@ -116,8 +126,20 @@
         flex-direction: column;
         max-width: 768px;
     }
+    .Yellow-Rectangle, 
+    .Green-Rectangle,
+    .Orange-Rectangle,
     .Red-Rectangle{
         opacity: 0;
+    }
+    .Text-Packages{
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-align: left;
+        padding-left: 80px;
+        padding-right: 50px;
     }
     .Green-Line{
         background-color: rgba(129, 180, 46, 1);
@@ -125,14 +147,34 @@
         justify-content: space-between;
         align-items: center;
         height: 122px;
-        max-width: 768px;
+    }
+    .Title-White-Line-Packages{
+        font-size: 35px;
     }
   }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
     .Container-Packages{
         display: flex;
         flex-direction: column;
-        max-width: 1024px;
+    }
+    .Yellow-Rectangle, 
+    .Green-Rectangle,
+    .Orange-Rectangle,
+    .Red-Rectangle{
+        opacity: 0;
+    }
+    .Title-White-Line-Packages{
+        font-size: 50px;
+        padding-left: 120px;
+    }
+    .Text-Packages{
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-align: left;
+        padding-left: 120px;
+        padding-right: 101px;
     }
   }
  

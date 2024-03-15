@@ -1,3 +1,18 @@
 .Arrow-Green{
     padding: 0px 71px 0px 47px;
 }
+@media only screen and (max-width: 425px) {
+    .Arrow-Green{
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Arrow-Green{
+        width: 50px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Arrow-Green{
+        width: 90px;
+    }
+}

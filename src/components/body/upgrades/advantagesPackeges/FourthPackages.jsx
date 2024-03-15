@@ -28,10 +28,12 @@ const FourthPackages = () => {
                 <p className='Price-Package'>$225K</p>
                 <button className='Footer-Button-Packages'><RedBusket/><RedPlus/></button>
             </div>
-            <div className='Green-Mini-Tab1-4th-Package'></div>
-            <div className='Yellow-Mini-Tab2-4th-Package'></div>
-            <div className='Orange-Mini-Tab3-4th-Package'></div>
-            <div className='White-Mini-Tab4-4th-Package'></div>
+            <div className='Conteiner-Mini-Tab'>
+                <div className='Green-Mini-Tab1-4th-Package'></div>
+                <div className='Yellow-Mini-Tab2-4th-Package'></div>
+                <div className='Orange-Mini-Tab3-4th-Package'></div>
+                <div className='White-Mini-Tab4-4th-Package'></div>
+            </div>
         </div>
     );
 };

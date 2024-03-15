@@ -16,30 +16,32 @@
 }
 @media only screen and (max-width: 1023px) {
     .Container-Input-Questions {
-        padding-top: 20px; /* Уменьшаем отступ сверху */
+        padding-top: 20px; 
     }
     .Input-Questions {
-        width: 100%; /* Ширина занимает всю доступную ширину */
+        width: 100%; 
     }
 }
 
-/* Медиа-запрос для ширины экрана до 767px */
 @media only screen and (max-width: 767px) {
     .Container-Input-Questions {
-        gap: 16px; /* Уменьшаем расстояние между элементами */
+        gap: 16px;
     }
     .Input-Questions {
-        height: 56px; /* Уменьшаем высоту */
+        height: 56px;
     }
 }
 
-/* Медиа-запрос для ширины экрана до 425px */
 @media only screen and (max-width: 425px) {
     .Container-Input-Questions {
-        gap: 12px; /* Уменьшаем расстояние между элементами */
-        padding-top: 15px; /* Уменьшаем отступ сверху */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        gap: 12px; 
     }
     .Input-Questions {
-        height: 48px; /* Уменьшаем высоту */
+        height: 48px;
+        width: 200px; 
     }
 }
