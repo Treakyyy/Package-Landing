@@ -1,5 +1,5 @@
 import React from 'react';
-import './Payment.css';
+import './Payment.scss';
 import IconUnion from '../../../img/IconUnion.png';
 import IconMasterCard from '../../../img/IconMasterCard.png';
 import IconVisa from '../../../img/IconVisa.png';

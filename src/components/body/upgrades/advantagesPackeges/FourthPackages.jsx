@@ -1,5 +1,5 @@
 import React from 'react';
-import './FourthPackages.css';
+import './FourthPackages.scss';
 import RedBusket from '../../../icon/Basket/RedBusket'
 import RedPlus from '../../../icon/Plus/RedPlus'
 

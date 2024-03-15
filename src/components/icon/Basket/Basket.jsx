@@ -1,6 +1,6 @@
 import React from 'react';
 import IconBasket from '../../../img/IconBasket.png'
-import './Basket.css'
+import './Basket.scss'
 
 const Basket = () => {
     return (

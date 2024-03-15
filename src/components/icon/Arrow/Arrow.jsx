@@ -1,6 +1,6 @@
 import React from 'react';
 import IconArrow from '../../../img/IconArrow.png'
-import './Arrow.css'
+import './Arrow.scss'
 
 const Arrow = () => {
     return (

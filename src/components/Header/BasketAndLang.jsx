@@ -1,5 +1,5 @@
 import React from 'react';
-import './BasketAndLang.css'
+import './BasketAndLang.scss'
 import Basket from '../icon/Basket/Basket';
 
 const BasketAndLang = () => {

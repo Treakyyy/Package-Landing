@@ -1,5 +1,5 @@
 import React from 'react';
-import './ArrowYellow.css'
+import './ArrowYellow.scss'
 import IconArrowYellow from '../../../img/IconArrowYellow.png'
 
 const ArrowYellow = () => {

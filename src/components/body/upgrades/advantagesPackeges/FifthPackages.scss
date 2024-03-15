@@ -1,0 +1,159 @@
+.Orange-Triple-Tab {
+    background: rgba(255, 143, 40, 1);
+    text-align: left;
+}
+
+.Title-Fifth-Package {
+    width: 230px;
+    background: rgba(140, 53, 227, 1);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.Text-Orange-Triple-Tab {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 21px;
+}
+
+.Footer-Container-Fifth-Package {
+    background: rgba(140, 53, 227, 1);
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    height: 70px;
+}
+
+.Red-Tab {
+    height: 50px;
+    background: rgba(255, 78, 104, 1);
+    margin: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    color: white;
+}
+
+.White-Tab-Fifth-Package {
+    padding-left: 21px;
+    text-align: left;
+    border: 1px solid;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@mixin MiniTabStyle($width, $height, $bg-color, $border-color, $top, $left) {
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+    border-radius: 15px 15px 0px 0px;
+    position: relative; 
+    top: $top;
+    left: $left;
+    border-bottom: none;
+}
+
+.Green-Mini-Tab1-5th-Package {
+    @include MiniTabStyle(60px, 25px, rgba(129, 180, 46, 1), rgba(129, 180, 46, 1), -670px, 10px);
+}
+
+.Yellow-Mini-Tab2-5th-Package {
+    @include MiniTabStyle(60px, 25px, rgba(255, 202, 0, 1), rgba(255, 202, 0, 1), -593px, 135px);
+}
+
+.Orange-Mini-Tab3-5th-Package {
+    @include MiniTabStyle(64px, 25px, rgba(255, 143, 40, 1), transparent, -572px, 145px);
+}
+
+.Red-Mini-Tab4-5th-Package {
+    @include MiniTabStyle(60px, 25px, rgba(255, 78, 104, 1), transparent, -480px, 168px);
+}
+
+.White-Mini-Tab5-5th-Package {
+    @include MiniTabStyle(60px, 25px, white, black, -456px, 168px);
+}
+
+.White-Mini-Tab6-5th-Package {
+    @include MiniTabStyle(60px, 25px, white, black, -431px, 105px);
+}
+
+.White-Mini-Tab7-5th-Package {
+    @include MiniTabStyle(60px, 25px, white, black, -404.5px, 155px);
+}
+
+.White-Mini-Tab8-5th-Package {
+    @include MiniTabStyle(60px, 25px, white, black, -379px, 105px);
+}
+
+.White-Mini-Tab9-5th-Package {
+    @include MiniTabStyle(60px, 25px, white, black, -353px, 155px);
+}
+
+@media only screen and (max-width: 425px) {
+    .Container-Choose-Package {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Title-Fifth-Package {
+        padding-left: 20px;
+    }
+
+    .Text-Orange-Triple-Tab {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Container-Choose-Package {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Title-Fifth-Package {
+        padding-left: 30px;
+    }
+
+    .Text-Orange-Triple-Tab {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Container-Choose-Package {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Title-Fifth-Package {
+        padding-left: 40px;
+    }
+
+    .Text-Orange-Triple-Tab {
+        padding-left: 40px;
+    }
+}
+

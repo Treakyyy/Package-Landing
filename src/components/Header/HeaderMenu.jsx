@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeaderMenu.css'
+import './HeaderMenu.scss'
 
 const HeaderMenu = () => {
     return (

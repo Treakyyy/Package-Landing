@@ -1,6 +1,6 @@
 import React from 'react';
 import IconArrowRed from '../../../img/IconArrowRed.png';
-import './ArrowRed.css'
+import './ArrowRed.scss'
 
 const ArrowRed = () => {
     return (

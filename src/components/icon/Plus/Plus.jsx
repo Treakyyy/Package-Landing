@@ -1,6 +1,6 @@
 import React from 'react';
 import IconPlus from '../../../img/IconPlus.png'
-import './Plus.css'
+import './Plus.scss'
 
 
 const Plus = () => {

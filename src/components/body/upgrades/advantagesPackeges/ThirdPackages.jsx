@@ -1,5 +1,5 @@
 import React from 'react';
-import './ThirdPackages.css'
+import './ThirdPackages.scss'
 import OrangeBusket from '../../../icon/Basket/OrangeBusket'
 import OrangePlus from '../../../icon/Plus/OrangePlus'
 

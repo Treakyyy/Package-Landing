@@ -1,5 +1,5 @@
 import React from 'react';
-import './MulticoloredColumn.css'
+import './MulticoloredColumn.scss'
 
 const MulticoloredColumn = () => {
     return (

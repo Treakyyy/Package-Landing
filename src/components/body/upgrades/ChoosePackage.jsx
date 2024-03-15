@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChoosePackage.css'
+import './ChoosePackage.scss'
 import FirstPackages from './advantagesPackeges/FirstPackages';
 import SecondPackage from './advantagesPackeges/SecondPackage';
 import ThirdPackages from './advantagesPackeges/ThirdPackages';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhiteColumn.css'
+import './WhiteColumn.scss'
 
 const WhiteColumn = () => {
     return (

@@ -1,4 +1,4 @@
-.Upgrades-Green{
+.Upgrades-Green {
     width: 555.61px;
     height: 106.96px;
     background: linear-gradient(90deg, #81B42E 17.65%, #FFCA00 96.94%);
@@ -6,7 +6,8 @@
     align-items: center;
     padding-left: 161px;
 }
-.Upgrades-Yellow{
+
+.Upgrades-Yellow {
     width: 669.61px;
     height: 106.96px;
     background: linear-gradient(90deg, #FFCA00 14.96%, #FF8F28 96.84%);
@@ -14,7 +15,8 @@
     align-items: center;
     padding-left: 161px;
 }
-.Upgrades-Orange{
+
+.Upgrades-Orange {
     width: 786.61px;
     height: 106.96px;
     background: linear-gradient(90deg, #FF8F28 12.91%, #FF4E68 96.76%);
@@ -22,7 +24,8 @@
     align-items: center;
     padding-left: 161px;
 }
-.Upgrades-Red{
+
+.Upgrades-Red {
     width: 912.61px;
     height: 106.96px;
     background: linear-gradient(90deg, #FF4E68 11.95%, #8C35E3 96.73%);
@@ -30,7 +33,8 @@
     align-items: center;
     padding-left: 161px;
 }
-.Text-Line-Upgrades{
+
+.Text-Line-Upgrades {
     font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
@@ -39,7 +43,8 @@
     text-align: left;
     color: white;
 }
-.Uprgrades-Button-Basket-Plus-Green{
+
+.Uprgrades-Button-Basket-Plus-Green {
     border: 2px solid rgba(255, 202, 0, 1);
     border-radius: 0px 10px 10px 0px;
     height: 106.96px;
@@ -51,7 +56,8 @@
     background-color: white;
     width: 121px;
 }
-.Uprgrades-Button-Basket-Plus-Yellow{
+
+.Uprgrades-Button-Basket-Plus-Yellow {
     border: 2px solid rgba(255, 143, 40, 1);
     border-radius: 0px 10px 10px 0px;
     height: 106.96px;
@@ -63,7 +69,8 @@
     background-color: white;
     width: 121px;
 }
-.Uprgrades-Button-Basket-Plus-Orange{
+
+.Uprgrades-Button-Basket-Plus-Orange {
     border: 2px solid rgba(255, 78, 104, 1);
     border-radius: 0px 10px 10px 0px;
     height: 106.96px;
@@ -75,7 +82,8 @@
     background-color: white;
     width: 121px;
 }
-.Uprgrades-Button-Basket-Plus-Red{
+
+.Uprgrades-Button-Basket-Plus-Red {
     border: 2px solid rgba(140, 53, 227, 1);
     border-radius: 0px 10px 10px 0px;
     height: 106.96px;
@@ -87,14 +95,16 @@
     background-color: white;
     width: 121px;
 }
+
 .Container-Green-Line, 
 .Container-Yellow-Line, 
 .Container-Orange-Line, 
-.Container-Red-Line{
+.Container-Red-Line {
     display: flex;
     align-items: center;
 }
-.Price-Green{
+
+.Price-Green {
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
@@ -105,7 +115,8 @@
     margin: 0;
     margin-left: 45px;
 }
-.Price-Yellow{
+
+.Price-Yellow {
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
@@ -116,7 +127,8 @@
     margin: 0;
     margin-left: 45px;
 }
-.Price-Orange{
+
+.Price-Orange {
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
@@ -127,7 +139,8 @@
     margin: 0;
     margin-left: 45px;
 }
-.Price-Red{
+
+.Price-Red {
     font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
@@ -138,121 +151,150 @@
     margin: 0;
     margin-left: 45px;
 }
-.Container-Upgrades-Line{
+
+.Container-Upgrades-Line {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 @media only screen and (max-width: 425px) {
-    .Upgrades-Green{
+    .Upgrades-Green {
         width: auto;
         padding-left: 15px;
     }
-    .Text-Line-Upgrades{
+
+    .Text-Line-Upgrades {
         font-size: 12px;
         font-weight: 400;
     }
-    .Upgrades-Green{
+
+    .Upgrades-Green {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Yellow{
+
+    .Upgrades-Yellow {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Orange{
+
+    .Upgrades-Orange {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Red{
+
+    .Upgrades-Red {
         width: 300px;
         padding-left: 30px;
     }
-    .Price-Red{
+
+    .Price-Red {
         font-size: 20px;
         font-weight: 400;
     }
-    .Price-Yellow{
+
+    .Price-Yellow {
         font-size: 20px;
         font-weight: 400;
     }
-    .Price-Orange{
+
+    .Price-Orange {
         font-size: 20px;
         font-weight: 400;
     }
-    .Price-Green{
+
+    .Price-Green {
         font-size: 20px;
         font-weight: 400;
     }
 }
+
 @media only screen and (max-width: 768px) {
-    .Upgrades-Green{
+    .Upgrades-Green {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Yellow{
+
+    .Upgrades-Yellow {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Orange{
+
+    .Upgrades-Orange {
         width: auto;
         padding-left: 30px;
     }
-    .Upgrades-Red{
+
+    .Upgrades-Red {
         width: auto;
         padding-left: 30px;
     }
-    .Text-Line-Upgrades{
+
+    .Text-Line-Upgrades {
         font-size: 25px;
         font-weight: 500;
     }
-    .Price-Red{
+
+    .Price-Red {
         font-size: 30px;
         font-weight: 500;
     }
-    .Price-Yellow{
+
+    .Price-Yellow {
         font-size: 30px;
         font-weight: 500;
     }
-    .Price-Orange{
+
+    .Price-Orange {
         font-size: 30px;
         font-weight: 500;
     }
-    .Price-Green{
+
+    .Price-Green {
         font-size: 30px;
         font-weight: 500;
     }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .Upgrades-Green{
+    .Upgrades-Green {
         width: auto;
     }
-    .Upgrades-Yellow{
+
+    .Upgrades-Yellow {
         width: auto;
     }
-    .Upgrades-Orange{
+
+    .Upgrades-Orange {
         width: auto;
     }
-    .Upgrades-Red{
+
+    .Upgrades-Red {
         width: auto;
     }
-    .Price-Red{
+
+    .Price-Red {
         font-size: 40px;
         font-weight: 600;
     }
-    .Price-Yellow{
+
+    .Price-Yellow {
         font-size: 40px;
         font-weight: 600;
     }
-    .Price-Orange{
+
+    .Price-Orange {
         font-size: 40px;
         font-weight: 600;
     }
-    .Price-Green{
+
+    .Price-Green {
         font-size: 40px;
         font-weight: 600;
     }
-    .Text-Line-Upgrades{
+
+    .Text-Line-Upgrades {
         font-size: 30px;
         font-weight: 600;
     }

@@ -1,12 +1,18 @@
-.Container-Button-Basket-And-Lang{
+.Container-Button-Basket-And-Lang {
     display: flex;
     gap: 18px;
 }
-.Container-Basket-And-Lang{
+
+.Container-Basket-And-Lang {
     display: flex;
     gap: 50px;
+
+    @media only screen and (max-width: 768px), only screen and (max-width: 1023px) {
+        opacity: 0;
+    }
 }
-.En{
+
+.En {
     height: 65px;
     width: 65px;
     border: 2px solid white;
@@ -19,7 +25,8 @@
     align-items: center;
     justify-content: center;
 }
-.Header-Button-Contant{
+
+.Header-Button-Contant {
     display: flex;
     padding-top: 101px;
     border: none;
@@ -33,13 +40,3 @@
     cursor: pointer;
     color: rgb(255, 255, 255);
 }
-@media only screen and (max-width: 768px) {
-    .Container-Basket-And-Lang{
-        opacity: 0;
-    }
-  }
-@media only screen and (max-width: 1023px) {
-    .Container-Basket-And-Lang{
-        opacity: 0;
-    }
-  }

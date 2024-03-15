@@ -1,4 +1,4 @@
-.Header-Button{
+@mixin header-button-styles {
     border: none;
     background-color: transparent;
     font-family: Poppins;
@@ -10,31 +10,28 @@
     cursor: pointer;
     color: rgb(255, 255, 255);
 }
-.Container-Header-Button{
+
+.Header-Button {
+    @include header-button-styles;
+}
+
+.Container-Header-Button {
     display: flex;
     gap: 154px;
     justify-content: center;
     align-items: start;
     margin-top: 101px;
-}
-@media only screen and (max-width: 425px) {
-    .Container-Header-Button{
+
+    @media only screen and (max-width: 425px) {
         display: flex;
         flex-direction: row;
         gap: 10px;
     }
-  }
-@media only screen and (max-width: 768px) {
-    .Container-Header-Button{
+
+    @media only screen and (max-width: 768px),
+           only screen and (min-width: 769px) and (max-width: 1024px) {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-  }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .Container-Header-Button{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-  }
+}

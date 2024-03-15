@@ -1,0 +1,21 @@
+.Footer-Container {
+    margin-top: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(140, 53, 227, 1);
+    border: 4px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px),
+           only screen and (max-width: 768px),
+           only screen and (max-width: 425px),
+           only screen and (min-width: 1024px) and (max-width: 1439px) {
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

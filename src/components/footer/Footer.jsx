@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.scss'
 import Questions from './questions/Questions';
 import Informations from './contacts/Informations';
 

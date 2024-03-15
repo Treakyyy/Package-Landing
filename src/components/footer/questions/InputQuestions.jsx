@@ -1,5 +1,5 @@
 import React from 'react';
-import './InputQuestions.css'
+import './InputQuestions.scss'
 
 const InputQuestions = () => {
     return (

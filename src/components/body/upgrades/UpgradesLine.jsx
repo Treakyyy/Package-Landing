@@ -1,5 +1,5 @@
 import React from 'react';
-import './UpgradesLine.css';
+import './UpgradesLine.scss';
 import ArrowGreen from '../../icon/Arrow/ArrowGreen';
 import ArrowYellow from '../../icon/Arrow/ArrowYellow';
 import ArrowOrange from '../../icon/Arrow/ArrowOrange';

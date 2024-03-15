@@ -1,5 +1,5 @@
 import React from 'react';
-import './FirstPackages.css'
+import './FirstPackages.scss'
 import GreenBusket from '../../../icon/Basket/GreenBusket'
 import GreenPlus from '../../../icon/Plus/GreenPlus'
 

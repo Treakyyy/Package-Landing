@@ -1,5 +1,5 @@
 import React from 'react';
-import './Informations.css'
+import './Informations.scss'
 import Contacts from './Contacts';
 import Payment from '../../icon/Payment/Payment';
 

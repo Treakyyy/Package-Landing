@@ -1,13 +1,15 @@
-.Container-2nd-Package{
+.Container-2nd-Package {
     display: flex;
     flex-direction: column;
 }
-.Title-Second-Package{
+
+.Title-Second-Package {
     width: 230px;
     background: rgba(255, 202, 0, 1);
     border-radius: 8px 8px 0px 0px;
 }
-.Name-Package{
+
+.Name-Package {
     font-family: Poppins;
     font-size: 52px;
     font-weight: 700;
@@ -16,7 +18,8 @@
     color: white;
     margin-bottom: 0;
 }
-.White-Tab{
+
+.White-Tab {
     border: 1px solid;
     width: 228.5px;
     height: 50px;
@@ -25,7 +28,8 @@
     margin: 0;
     text-align: center;
 }
-.Footer-Container-Second-Package{
+
+.Footer-Container-Second-Package {
     background: rgba(255, 202, 0, 1);
     width: 230px;
     display: flex;
@@ -34,7 +38,8 @@
     border-radius: 0px 0px 8px 8px;
     height: 70px;
 }
-.Price-Package{
+
+.Price-Package {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
@@ -43,7 +48,8 @@
     color: white;
     margin: 0;
 }
-.Footer-Button-Packages{
+
+.Footer-Button-Packages {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -53,11 +59,13 @@
     gap: 10px;
     border-radius: 8px;
 }
-.Green-Tab-Second-Package{
+
+.Green-Tab-Second-Package {
     height: 100px;
     background-color: rgba(129, 180, 46, 1);
 }
-.Green-Mini-Tab1-2nd-Package{
+
+.Green-Mini-Tab1-2nd-Package {
     width: 60px;
     height: 25px;
     background-color: rgba(129, 180, 46, 1);
@@ -68,7 +76,8 @@
     left: 5%;
     border-bottom: none;
 }
-.White-Mini-Tab2-2nd-Package{
+
+.White-Mini-Tab2-2nd-Package {
     width: 60px;
     height: 25px;
     background-color: white;

@@ -1,4 +1,14 @@
-.Title-Upgrades{
+@mixin upgrades-padding($padding) {
+    .Title-Upgrades {
+        padding-left: $padding;
+    }
+
+    .Text-Upgrades {
+        padding-left: $padding;
+    }
+}
+
+.Title-Upgrades {
     font-family: Poppins;
     font-size: 32px;
     font-weight: 700;
@@ -6,39 +16,34 @@
     letter-spacing: 0em;
     text-align: left;
     padding-left: 161px;
+
+    @include upgrades-padding(161px);
+
 }
-.Container-Upgrades{
+
+.Container-Upgrades {
     margin-top: 141px;
 }
-.Text-Upgrades{
+
+.Text-Upgrades {
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
     padding-left: 161px;
+
+    @include upgrades-padding(161px);
 }
+
 @media only screen and (max-width: 425px) {
-    .Title-Upgrades{
-        padding-left: 20px;
-    }
-    .Text-Upgrades{
-        padding-left: 20px;
-    }
+    @include upgrades-padding(20px);
 }
+
 @media only screen and (max-width: 768px) {
-    .Title-Upgrades{
-        padding-left: 40px;
-    }
-    .Text-Upgrades{
-        padding-left: 40px;
-    }
+    @include upgrades-padding(40px);
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .Title-Upgrades{
-        padding-left: 80px;
-    }
-    .Text-Upgrades{
-        padding-left: 80px;
-    }
+    @include upgrades-padding(80px);
 }

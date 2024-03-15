@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageGirl1 from '../../../img/ImageGirl1.png';
-import './GirlPackage.css'
+import './GirlPackage.scss'
 
 const GirlPackage = () => {
     return (

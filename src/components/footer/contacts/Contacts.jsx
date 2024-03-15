@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contacts.css'
+import './Contacts.scss'
 import Message from '../../icon/info/Message';
 import Phone from '../../icon/info/Phone';
 import Place from '../../icon/info/Place';

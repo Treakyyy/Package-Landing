@@ -1,5 +1,5 @@
 import React from 'react';
-import './PurpleTab.css'
+import './PurpleTab.scss'
 import MulticoloredColumn from './MulticoloredColumn';
 import WhiteColumn from './WhiteColumn';
 import Plus from '../../icon/Plus/Plus';

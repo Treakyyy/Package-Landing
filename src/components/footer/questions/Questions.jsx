@@ -1,5 +1,5 @@
 import React from 'react';
-import './Questions.css'
+import './Questions.scss'
 import InputQuestions from './InputQuestions';
 import GirlFooter from '../../icon/Girl/GirlFooter'
 import Other from '../../icon/other/Other';

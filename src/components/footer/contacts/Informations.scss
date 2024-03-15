@@ -1,0 +1,82 @@
+@mixin title-informations-styles {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+@mixin text-agreement-styles {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+}
+
+@mixin text-payment-styles {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.Container-Information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 161px;
+    margin-top: 172px;
+    margin-bottom: 60px;
+
+    @media only screen and (max-width: 425px) {
+        padding-right: 120px;
+    }
+}
+
+.Payment {
+    width: 480px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px; 
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 11px;
+
+    @media only screen and (max-width: 768px) {
+        width: 400px;
+    }
+
+    @media only screen and (max-width: 425px) {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.Title-Informations {
+    @include title-informations-styles;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    @media only screen and (max-width: 425px) {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+.Text-Agreement {
+    @include text-agreement-styles;
+}
+
+.Text-Payment {
+    @include text-payment-styles;
+}

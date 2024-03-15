@@ -1,4 +1,4 @@
-.Title-Package{
+.Title-Package {
     font-family: Poppins;
     font-size: 32px;
     font-weight: 700;
@@ -8,7 +8,8 @@
     color: black;
     padding-left: 161px;
 }
-.Title-Text-Package{
+
+.Title-Text-Package {
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
@@ -18,52 +19,63 @@
     color: black;
     padding-left: 161px;
 }
-.Container-Choose-Package{
+
+.Container-Choose-Package {
     display: flex;
     gap: 25px;
 }
-.GirlPhoto{
+
+.GirlPhoto {
     position: absolute;
     top: 520%;
     left: 12%;
 }
+
 @media only screen and (max-width: 425px) {
-    .Container-Choose-Package{
+    .Container-Choose-Package {
         width: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .Title-Package{
+
+    .Title-Package {
         padding-left: 20px;
     }
-    .Title-Text-Package{
+
+    .Title-Text-Package {
         padding-left: 20px;
     }
 }
+
 @media only screen and (max-width: 768px) {
-    .Container-Choose-Package{
+    .Container-Choose-Package {
         width: auto;
         display: flex;
         flex-wrap: wrap;
     }
-    .Title-Package{
+
+    .Title-Package {
         padding-left: 30px;
     }
-    .Title-Text-Package{
+
+    .Title-Text-Package {
         padding-left: 30px;
     }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .Container-Choose-Package{
+    .Container-Choose-Package {
         width: auto;
         display: flex;
         flex-wrap: wrap;
     }
-    .Title-Package{
+
+    .Title-Package {
         padding-left: 40px;
     }
-    .Title-Text-Package{
+
+    .Title-Text-Package {
         padding-left: 40px;
     }
 }

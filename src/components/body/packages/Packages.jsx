@@ -1,5 +1,5 @@
 import React from 'react';
-import './Packages.css'
+import './Packages.scss'
 import Arrow from '../../icon/Arrow/Arrow';
 import PurpleTab from './PurpleTab';
 

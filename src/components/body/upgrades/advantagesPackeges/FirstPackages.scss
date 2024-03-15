@@ -1,14 +1,32 @@
-.Container-1st-Package{
+.Container-1st-Package {
     margin-left: 161px;
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: 1400px) {
+        .Conteiner-Mini-Tab {
+            display: none;
+        }
+
+        margin-left: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+        margin-left: 0;
+    }
+
+    @media only screen and (max-width: 425px) {
+        margin-left: 0;
+    }
 }
-.Title-First-Package{
+
+.Title-First-Package {
     width: 230px;
     background-color: rgba(129, 180, 46, 1);
     border-radius: 8px 8px 0px 0px;
 }
-.Name-Package{
+
+.Name-Package {
     font-family: Poppins;
     font-size: 52px;
     font-weight: 700;
@@ -18,7 +36,8 @@
     margin-bottom: 0;
     padding-bottom: 30px;
 }
-.White-Tab{
+
+.White-Tab {
     border: 1px solid;
     width: 228.5px;
     height: 50px;
@@ -32,12 +51,14 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+
+    .Text-White-Tab {
+        padding-left: 21px;
+        font-size: 15px;
+    }
 }
-.Text-White-Tab{
-    padding-left: 21px;
-    font-size: 15px;
-}
-.Footer-Container-First-Package{
+
+.Footer-Container-First-Package {
     background-color: rgba(129, 180, 46, 1);
     width: 230px;
     display: flex;
@@ -46,7 +67,8 @@
     border-radius: 0px 0px 8px 8px;
     height: 70px;
 }
-.White-Mini-Tab1-1st-Package{
+
+.White-Mini-Tab1-1st-Package {
     width: 60px;
     height: 25px;
     background-color: white;
@@ -57,7 +79,8 @@
     left: 5%;
     border-bottom: none;
 }
-.White-Mini-Tab2-1st-Package{
+
+.White-Mini-Tab2-1st-Package {
     width: 60px;
     height: 25px;
     background-color: white;
@@ -68,7 +91,8 @@
     left: 73.3%;
     border-bottom: none;
 }
-.Price-Package{
+
+.Price-Package {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
@@ -77,7 +101,8 @@
     color: white;
     margin: 0;
 }
-.Footer-Button-First-Packages{
+
+.Footer-Button-First-Packages {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -86,22 +111,4 @@
     padding: 6px 8px 6px 8px;
     gap: 10px;
     border-radius: 8px;
-}
-@media only screen and (max-width: 1400px){
-    .Conteiner-Mini-Tab{
-        display: none;
-    }
-    .Container-1st-Package{
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 768px){
-    .Container-1st-Package{
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 425px){
-    .Container-1st-Package{
-        margin-left: 0;
-    }
 }

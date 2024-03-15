@@ -1,5 +1,5 @@
 import React from 'react';
-import './Upgrades.css'
+import './Upgrades.scss'
 import UpgradesLine from './UpgradesLine';
 import ChoosePackage from './ChoosePackage';
 

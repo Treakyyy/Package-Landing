@@ -1,8 +1,8 @@
 import React from 'react';
-import './FirstPackages.css';
+import './FirstPackages.scss';
 import PurpleBusket from '../../../icon/Basket/PurpleBusket';
 import PurplePlus from '../../../icon/Plus/PurplePlus';
-import './FifthPackages.css'
+import './FifthPackages.scss'
 
 const FifthPackages = () => {
     return (
